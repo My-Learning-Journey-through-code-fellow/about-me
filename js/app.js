@@ -41,4 +41,6 @@ if(questionFiveGuess === 'y' || questionFiveGuess === 'yes'){
   alert('There is always tomorrow')
 }
 
+{
 alert(`Thank you, ${visitorName} for your participation!`)
+}
