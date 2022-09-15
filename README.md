@@ -7,3 +7,6 @@
   added list updated  .CSS
   added Top 10  Foods,
   Added professional Experience
+9/15 -
+  made changes with driver bring Elias Staehle and navigator being Trace Dugar
+  
