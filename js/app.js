@@ -101,7 +101,6 @@ while (guessNumQ7 > 0) {
       score++;
       guessNumQ7 = 0;
     }
-
   }
 }
 if (guessNumQ7 === 0){
