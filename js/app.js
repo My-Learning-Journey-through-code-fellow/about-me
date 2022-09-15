@@ -104,7 +104,7 @@ while (guessNumQ7 > 0) {
   }
 }
 if (guessNumQ7 === 0){
-  alert("New Orleans, Orleans Parish, Louisiana, the South, United States. Is the birtholaxe of Jazz.")
+  alert("New Orleans, Orleans Parish, Louisiana, the South, United States. Is the birthplace of Jazz.")
 }
 {
   alert(`Thank you, ${visitorName} for your participation! You scored ${score} of 7`)
