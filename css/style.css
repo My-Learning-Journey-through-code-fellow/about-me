@@ -1,6 +1,6 @@
 
 header{
- background-color: black;
+ background-color: rgb(26, 26, 32);
  color: rgb(168, 168, 168);
  font-family: Arial, Helvetica, sans-serif;
  text-align: center;
@@ -10,12 +10,14 @@ h1{
  padding-top: 30px;
  padding-bottom: 30px;
  font-size: 50px;
+ font-weight: 700;
 }
 
 h2{
   font-size: 25px;
   padding-top: 15px;
   padding-bottom: 15px;
+  font-weight: 600;
 }
 
 body {
@@ -28,5 +30,25 @@ body {
 p{
   padding-top: 5px;
   padding-bottom: 5px;
+}
 
+.bold{
+  font-weight: 800;
+}
+
+.selfie{
+  margin-top: 40px;
+}
+
+img{
+  max-width: 25%;
+  height: auto;
+}
+
+.column{
+  width: 800px;
+ text-align:justify;
+ text-align-last:center;
+ margin-left: auto;
+ margin-right: auto;
 }
