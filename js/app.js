@@ -1,18 +1,13 @@
 'use strict';
 
-console.log('Hello World');
-
 let visitorName = prompt('What is your name?')
 
 let score = 0;
-
-console.log('Name >>> ', visitorName)
 
 alert(`Welcome to my site ${visitorName}! Please Answer these 5 yes or no questions`)
 
 function firstQuestion() {
   let questionOneGuess = prompt('Do you like music?').toLowerCase();
-  console.log('Q1 >>>', questionOneGuess)
   if (questionOneGuess === 'y' || questionOneGuess === 'yes') {
     alert('Me too');
     score++;
@@ -24,7 +19,6 @@ firstQuestion();
 
 function secondQuestion() {
   let questionTwoGuess = prompt('Do you like sweets?').toLowerCase();
-  console.log('Q2 >>>', questionTwoGuess)
   if (questionTwoGuess === 'y' || questionTwoGuess === 'yes') {
     alert('Sweeeeeeeeeeeeet!');
     score++;
@@ -36,7 +30,6 @@ secondQuestion();
 
 function thirdQuestion() {
   let questionThreeGuess = prompt('Do you like being outdoors?').toLowerCase();
-  console.log('Q3 >>>', questionThreeGuess)
   if (questionThreeGuess === 'y' || questionThreeGuess === 'yes') {
     alert('Sunshine is the best, isnt it?');
     score++;
@@ -48,7 +41,6 @@ thirdQuestion();
 
 function fourthQuestion() {
   let questionFourGuess = prompt('Do you like animals?').toLowerCase();
-  console.log('Q4 >>>', questionFourGuess)
   if (questionFourGuess === 'y' || questionFourGuess === 'yes') {
     alert('You are a kind soul.');
     score++;
@@ -60,7 +52,6 @@ fourthQuestion();
 
 function fifthQuestion() {
   let questionFiveGuess = prompt('Is your day good?').toLowerCase();
-  console.log('Q5 >>>', questionFiveGuess)
   if (questionFiveGuess === 'y' || questionFiveGuess === 'yes') {
     alert('Hell Yea!!!');
     score++;
@@ -79,7 +70,6 @@ function numGuessGame() {
   while (guessNum > 0) {
     let userNumGuess = prompt('What is my favorite number?');
     guessNum--;
-    console.log('NumberGuess >>>', userNumGuess)
     if (parseInt(userNumGuess) === myNum) {
       alert("Correct, Great job!!")
       score++;
@@ -102,7 +92,6 @@ function guessGame() {
   while (guessNumQ7 > 0) {
     let questionSevenGuess = prompt('Where is the birthplace of Jazz music?').toLowerCase();
     guessNumQ7--;
-    console.log('Q7 >>>', questionSevenGuess)
     for (let i = 0; i < myLocationArr.length; i++) {
       if (questionSevenGuess == myLocationArr[i]) {
         alert("Aren't you just Jazzed you got it right?")
