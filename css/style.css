@@ -33,7 +33,13 @@ p{
 }
 
 .bold{
-  font-weight: 800;
+  font-weight: 700;
+  font-size: larger;
+}
+
+.lessbold{
+font-size: larger;
+font-weight: 700;
 }
 
 .selfie{
@@ -46,7 +52,7 @@ img{
 }
 
 .column{
-  width: 800px;
+  width: 900px;
  text-align:justify;
  text-align-last:center;
  margin-left: auto;
