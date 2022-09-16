@@ -9,21 +9,18 @@ let score = 0;
 console.log('Name >>> ', visitorName)
 
 alert(`Welcome to my site ${visitorName}! Please Answer these 5 yes or no questions`)
+
 function firstQuestion() {
   let questionOneGuess = prompt('Do you like music?').toLowerCase();
 
-function firstQuestion(){
-let questionOneGuess = prompt('Do you like music?').toLowerCase();
+  console.log('Q1 >>>', questionOneGuess)
 
-console.log('Q1 >>>', questionOneGuess)
-
-if (questionOneGuess === 'y' || questionOneGuess === 'yes') {
-  alert('Me too');
-  score++;
-} else if (questionOneGuess === 'n' || questionOneGuess === 'no') {
-  alert('How?')
-}
-}
+  if (questionOneGuess === 'y' || questionOneGuess === 'yes') {
+    alert('Me too');
+    score++;
+  } else if (questionOneGuess === 'n' || questionOneGuess === 'no') {
+    alert('How?')
+  }
 }
 
 firstQuestion();
