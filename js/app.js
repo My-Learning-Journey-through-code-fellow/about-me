@@ -1,4 +1,4 @@
-'usse strict';
+'use strict';
 
 console.log('Hello World');
 
@@ -24,6 +24,8 @@ if (questionOneGuess === 'y' || questionOneGuess === 'yes') {
   alert('How?')
 }
 }
+}
+
 firstQuestion();
 
 let questionTwoGuess = prompt('Do you like sweets?').toLowerCase();
